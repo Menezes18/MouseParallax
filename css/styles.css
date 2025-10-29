@@ -1,0 +1,29 @@
+/* Basic styles to match the scaffold in the screenshot */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: #eaeaea;
+  background: #0a0a0a;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+.site-name a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.menu p {
+  margin: 0;
+  color: #c7c7c7;
+}
+
